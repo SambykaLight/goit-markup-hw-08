@@ -1,0 +1,53 @@
+:root {
+    --primery-text-color: #ffffff;
+    --title-text-color: #212121;
+    --text-about-color: #757575;
+    --link-color: #2196f3;
+    --line-background: #2f303a;
+    --button-color: #f5f4fa;
+    --main-background-color: #e5e5e5;
+    --team-background-color: #f5f4fa;
+    --border-color: #ececec;
+    --bgc-btn: #188ce8;
+    --team-line-color: #afb1b8;
+    --border-box-color: #eeeeee;
+    --footer-linl-color: rgba(255, 255, 255, 0.6);
+
+    /* pic  */
+  
+    --indent: 30px;
+    --items: 3;
+  
+    /* hover shadow  */
+    --shadow: cubic-bezier(0.4, 0, 0.2, 1);
+  
+    /* index  */
+    --index-backdrop: 1000;
+  }
+
+  .head-box {
+    display: block;
+    position: absolute;
+    width: 1600px;
+    height: 0px;
+    left: 0px;
+    top: 80px;
+  
+    border: 1px solid var(--border-color);
+  }
+  
+  .body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: var(--primery-text-color);
+  }
+  
+  .button {
+    cursor: pointer;
+  }
+
+  .btn {
+    font-family: "roboto", sans-serif;
+  }
+  

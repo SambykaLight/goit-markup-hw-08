@@ -1,0 +1,80 @@
+// team
+.team-line__media {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    margin-top: 16px;
+  }
+  
+  .team-line__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--team-line-color);
+    background-color: var(--primery-text-color);
+    transition: background-color 250ms var(--shadow), color 250ms var(--shadow);
+  
+    &:hover,
+    &:focus {
+      color: var(--primery-text-color);
+      background-color: var(--link-color);
+    }
+  }
+  
+  .team-line__icons {
+    fill: currentColor;
+  }
+  
+//  footer
+
+  .find-us-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  
+
+  .find-us-icons {
+    fill: var(--primery-text-color);
+  }
+
+  .find-us-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms var(--shadow);
+
+    &:hover,
+  &:focus {
+    background-color: var(--link-color);
+  }
+  }
+
+  // project
+
+  .box-link {
+    display: block;
+    text-decoration: none;
+    transition: opacity 250ms var(--shadow), transform 250ms var(--shadow);
+
+    &:hover,
+  &:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+  }

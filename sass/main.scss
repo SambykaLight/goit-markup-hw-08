@@ -1,0 +1,37 @@
+// base
+@import './base/base';
+@import './base/reset';
+
+// components
+@import './components/container';
+@import './components/header';
+@import './components/logo';
+@import './components/navigation';
+@import './components/hero';
+@import './components/buttons';
+@import './components/section';
+@import './components/sosial-links';
+@import './components/feet';
+@import './components/titles';
+@import './components/thumb';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/cheackbox';
+@import './components/footer';
+
+// utils
+@import './utils/overlay';
+@import './utils/visually-hidden';
+@import './utils/is-hidden';
+
+// layaut
+@import './layaut/about-us';
+@import './layaut/content';
+@import './layaut/team';
+@import './layaut/customers';
+@import './layaut/project';
+
+
+
+
+

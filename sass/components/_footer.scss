@@ -1,0 +1,68 @@
+.footer-form-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  
+    color: var(--primery-text-color);
+  }
+  
+  .footer-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-field {
+    display: flex;
+  }
+  
+  .footer-input {
+    display: flex;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    margin-right: 12px;
+    align-items: center;
+    letter-spacing: 0.03em;
+  
+    color: rgba(255, 255, 255, 0.6);
+    padding: 15px 16px;
+    width: 358px;
+    height: 50px;
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
+  
+  .foo-icon {
+    margin-left: 30px;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer-form-submit {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: calc(30 / 16);
+    color: var(--primery-text-color);
+  }
+  
+ 

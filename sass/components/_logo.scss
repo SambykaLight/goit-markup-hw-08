@@ -1,0 +1,33 @@
+.logo {
+    display: block;
+    margin-right: 97px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--link-color);
+    font-family: "Raleway";
+    text-decoration: none;
+    text-transform: capitalize;
+
+  &:hover,
+  &:focus {
+    color: var(--link-color);
+  }
+}
+  
+// footer
+
+.feet-logo {
+  display: block;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--link-color);
+  text-decoration: none;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}

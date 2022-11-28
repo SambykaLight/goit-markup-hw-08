@@ -1,0 +1,64 @@
+.form-checkbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 7px;
+  }
+  
+  .form-field-cheackbox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .form-cheackbox-box {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .form-agreement-text {
+    user-select: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    align-items: center;
+  
+    color: var(--text-about-color);
+  }
+  
+  .form-agreement-link {
+    color: var(--link-color);
+  }
+  
+  
+  
+  .form-checkbox {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 4px;
+  }
+  
+  .form-agreement-link {
+    text-decoration: underline;
+  }
+  
+  .form-checkbox-icon .uncheked {
+    opacity: 1;
+  }
+  
+  .form-checkbox:checked + .form-checkbox-icon .uncheked {
+    opacity: 0;
+  }
+  
+  .form-checkbox-icon .cheked {
+    opacity: 0;
+  }
+  
+  .form-checkbox:checked + .form-checkbox-icon .cheked {
+    opacity: 1;
+  }
