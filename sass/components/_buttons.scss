@@ -160,5 +160,53 @@
     &:hover {
       background-color: var(--bgc-btn);
     }
+
+    @media screen and (max-width: 768px) {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
     
   }
+
+
+  // burger menu
+  @media screen and (min-width:768px){
+    .burger-button{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width:768px){
+    .burger-button{
+      position: absolute;
+      display:flex;
+      min-height: 40px;
+      min-width: 40px;
+      margin: 0;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+  cursor: pointer;
+      @media screen and (min-width: $tablet){
+        display: none;
+      }
+    }
+  
+    .burger-button .icon-menu{
+      display: none;
+    }
+  
+    .burger-button.is-open .icon-close{
+      display: block;
+    }
+  
+    .burger-button.is-open .icon-menu{
+      display: none;
+    }
+    .burger-button.is-open .burger:hover, .burger-button.is-open .burger:focus {
+      fill: #2196F3;
+    }
+    
+  }
+  

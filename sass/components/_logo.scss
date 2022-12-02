@@ -4,6 +4,7 @@
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
+    padding: 16px 0;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--link-color);
@@ -14,6 +15,9 @@
   &:hover,
   &:focus {
     color: var(--link-color);
+  }
+  @media  screen and (min-width: $tablet){
+    padding: 0;
   }
 }
   
@@ -30,4 +34,10 @@
   text-decoration: none;
   margin-bottom: 20px;
   text-transform: capitalize;
+
+
+// @media screen and (max-width: 1199px){
+//   display: flex;
+//     justify-content: center;
+// }
 }

@@ -9,12 +9,21 @@
     margin-bottom: 20px;
   
     color: var(--primery-text-color);
+
+    @media screen and (max-width: 768px){
+    display: flex;
+    justify-content: center;
+}
   }
   
   .footer-group {
+
+
+    @media screen and (min-width: $desktop){
     display: flex;
     align-items: center;
     justify-content: center;
+    }
   }
   
   .footer-form {
@@ -25,6 +34,7 @@
   
   .footer-field {
     display: flex;
+    
   }
   
   .footer-input {
@@ -63,6 +73,12 @@
     text-transform: capitalize;
     line-height: calc(30 / 16);
     color: var(--primery-text-color);
+  }
+
+  .footer-suscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
  
