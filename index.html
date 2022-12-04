@@ -25,12 +25,7 @@
       <div class="header__container container">
         <nav class="nav header__nav">
           <a href="" class="logo">webstudio</a>
-          <button type="button" class="burger-button is-open" aria-expanded="false" aria-controls="burger__menu" data-menu-button>
-            <svg class="burger" width="40" height="40" aria-label="burger menu">
-              <use class="icon-menu" href="./img/icons.svg#icon-menu_40px"></use>
-              <use class="icon-close" href="./img/icons.svg#icon-close_40px"></use>
-            </svg>
-          </button>
+         
           <ul class="nav__list list">
             <li><a href="" class="nav__link current link">studio</a></li>
             <li>
@@ -58,9 +53,71 @@
               >
             </li>
           </ul>
+          <button type="button" class="burger-button is-open" aria-expanded="false" aria-controls="burger__menu" data-menu-button>
+            <svg class="burger" width="40" height="40" aria-label="burger menu">
+              <use class="icon-menu" href="./img/icons.svg#icon-close_40px"></use>
+              <use class="icon-close" href="./img/icons.svg#icon-menu_40px"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </header>
+     <!-- mobile menu --> 
+     <div class="burger__menu" id="burger__menu" data-menu>
+      <div class="burger__navigation">
+        <ul class="burger__list">
+          <li class="burger__item list">
+            <a class="burger__link burger__link--current" href="index.html">studio</a>
+          </li>
+          <li class="burger__item list">
+            <a class="burger__link" href="portfolio.html">portfolio</a>
+          </li>
+          <li class="burger__item list">
+            <a class="burger__link" href="#">contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="burger__contacts">
+        <ul class="mobile-list list">
+          <li class="mobile-items">
+            <a href="tel:+380961111111" class="mobile-link-tel">+38 096 111 11 11</a>
+          </li>
+          <li class="mobile-items">
+            <a href="mailto:info@devstudio.com" class="mobile-link-mail">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="sosial-contacts list">
+          <li class="sosial-items">
+            <a href="" class="sosial-link" 
+            href="https://instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow">
+                  instagram</a>
+          </li>
+          <li class="sosial-items">
+            <a href="" class="sosial-link"
+                  href="https://twitter.com/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow">
+                  twitter</a>
+          </li>
+          <li class="sosial-items">
+            <a href="" class="sosial-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow">
+                  facebook</a>
+          </li>
+          <li class="sosial-items">
+            <a href="" class="sosial-link"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow">
+                  linkedin</a>
+          </li>
+        </ul>
+      </div>
+          </div>
     <main>
       <section class="hero">
         <div class="container">
@@ -339,7 +396,7 @@
                 srcset="img/our-team/ryan_t@1x.jpg 1x,
                 img/our-team/ryan_t@2x.jpg 2x"/>
                 <source
-                media="(min-width: 766px)"
+                media="(max-width: 766px)"
                 srcset="img/our-team/ryan_m@1x.jpg 1x,
                 img/our-team/ryan_m@2x.jpg 2x "/>
               <img
@@ -413,7 +470,7 @@
                 srcset="img/our-team/tyler_t@1x.jpg 1x,
                 img/our-team/tyler_t@2x.jpg 2x"/>
                 <source
-                media="(min-width: 766px)"
+                media="(max-width: 766px)"
                 srcset="img/our-team/tyler_m@1x.jpg 1x,
                 img/our-team/tyler_m@2x.jpg 2x "/>
               <img
@@ -764,62 +821,7 @@
         </form>
       </div>
     </div>
-    <!-- mobile menu --> 
-    <div class="burger__menu" id="burger__menu" data-menu>
-<div class="burger__navigation">
-  <ul class="burger__list">
-    <li class="burger__item list">
-      <a class="burger__link burger__link--current" href="index.html">studio</a>
-    </li>
-    <li class="burger__item list">
-      <a class="burger__link" href="portfolio.html">portfolio</a>
-    </li>
-    <li class="burger__item list">
-      <a class="burger__link" href="#">contacts</a>
-    </li>
-  </ul>
-</div>
-<div class="burger__contacts">
-  <ul class="mobile-list list">
-    <li class="mobile-items">
-      <a href="tel:+380961111111" class="mobile-link-tel">+38 096 111 11 11</a>
-    </li>
-    <li class="mobile-items">
-      <a href="mailto:info@devstudio.com" class="mobile-link-mail">info@devstudio.com</a>
-    </li>
-  </ul>
-  <ul class="sosial-contacts list">
-    <li class="sosial-items">
-      <a href="" class="sosial-link" 
-      href="https://instagram.com/"
-            target="_blank"
-            rel="noopener noreferrer nofollow">
-            instagram</a>
-    </li>
-    <li class="sosial-items">
-      <a href="" class="sosial-link"
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer nofollow">
-            twitter</a>
-    </li>
-    <li class="sosial-items">
-      <a href="" class="sosial-link"
-            href="https://www.facebook.com/"
-            target="_blank"
-            rel="noopener noreferrer nofollow">
-            facebook</a>
-    </li>
-    <li class="sosial-items">
-      <a href="" class="sosial-link"
-            href="https://www.linkedin.com/"
-            target="_blank"
-            rel="noopener noreferrer nofollow">
-            linkedin</a>
-    </li>
-  </ul>
-</div>
-    </div>
+     
 
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>

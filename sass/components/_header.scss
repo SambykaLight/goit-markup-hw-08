@@ -3,14 +3,14 @@
     border-bottom: 1px solid #ececec;
   }
   .header__container {
-      position: relative;
+      // position: relative;
     @media screen and (min-width: $tablet){
     display: flex;
     align-items: center;
   }
   }
 
-  @media screen and (max-width:768px){
+  @media screen and (max-width: 767px){
     .header__container .burger-button {
       position: absolute;
       top: 16px;
@@ -43,15 +43,16 @@
   }
   
   .header__items {
+
+    @media screen and (min-width: $tablet) {
+      margin-bottom: 10px;
+    }
     display: flex;
     align-items: center;
     gap: 10px;
   }
   
   .header__link {
-    @media screen and (min-width: $tablet) {
-      margin-bottom: 10px;
-    }
     display: flex;
     align-items: center;
     justify-content: center;

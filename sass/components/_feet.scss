@@ -1,110 +1,100 @@
 .feet {
-  
-    
-    justify-content: center;
+  justify-content: center;
 
-    @media screen and (min-width: $desktop){
-      display: flex;
-      align-items: baseline;
-    }
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    align-items: baseline;
   }
-  
-  .feet-address{
-    align-items: center;
-    text-align: center;
-    margin-bottom: 60px;
+}
 
-    @media screen and (max-width:767) {
+.feet-address {
+  align-items: center;
+  text-align: center;
+
+  @media screen and (min-width: 768) {
     flex-direction: column;
     margin: 0 auto;
-    margin-bottom: 60px;
-    }
+  }
 
-    @media screen and (min-width: $desktop) {
+  @media screen and (min-width: $desktop) {
     margin: 0;
     text-align: left;
-    
-}
   }
-  
-  .tablet{
-    justify-content: center;
-    margin-bottom: 60px;
-    
+}
 
-    @media screen and (min-width: $tablet) {
+.tablet {
+  justify-content: center;
+
+  @media screen and (min-width: $tablet) {
     display: flex;
     justify-content: center;
-    margin-bottom: 60px;
     margin: 0 auto;
+  }
 }
-  }
 
-  .address-box {
-    font-style: normal;
-  }
-  
-  .address-list {
-    display: flex;
-    flex-direction: column;
-    gap: 9px;
-    margin: 0;
-    padding: 0;
-    font-style: normal;
-  }
-  
-  .address {
-    background-color: var(--line-background);
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .address-location {
-    font-family: "Roboto", sans-serif;
-    width: 231px;
-    font-size: 14px;
-    line-height: calc(24 / 14);
-    color: var(--primery-text-color);
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: background-color 250ms var(--shadow);
+.address-box {
+  font-style: normal;
+}
 
-    &:hover,
+.address-list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+}
+
+.address {
+  background-color: var(--line-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address-location {
+  font-family: "Roboto", sans-serif;
+  width: 231px;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  color: var(--primery-text-color);
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: background-color 250ms var(--shadow);
+
+  &:hover,
   &:focus {
     color: var(--link-color);
   }
-  }
-  
-  
-  
-  
-  
-  .find-us {
-    width: 206px;
-    height: 80px;
-    margin: 0 auto;
-    text-align: center;
+}
 
-    @media screen and(min-width: $tablet) {
-      align-items: center;
+.find-us {
+  width: 206px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+
+  @media screen and(min-width: $tablet) {
+    align-items: center;
     justify-content: center;
     padding: 0;
     margin: 0;
+    margin-left: 165px;
+  }
+
+  @media screen and(min-width: $desktop) {
     margin-left: 70px;
     margin-right: 93px;
-    }
+    text-align: left;
+  }
+}
 
-  }
-  
-  
-  
-  .find-name {
-    font-family: "Roboto";
-    font-style: normal;
-    text-align: center;
-    font-size: 14px;
-    line-height: calc(16 / 14);
-    text-transform: uppercase;
-    color: var(--primery-text-color);
-  }
-  
+.find-name {
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  color: var(--primery-text-color);
+}

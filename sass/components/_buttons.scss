@@ -33,180 +33,173 @@
 // project
 
 .btn__list {
-    list-style: none;
-    display: flex;
-    gap: 8px;
-    padding: 0;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .btn__project {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 6px 26px;
-    line-height: calc(26 / 16);
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-    cursor: pointer;
-    text-transform: capitalize;
-    background: var(--button-color);
-    border-radius: 4px;
-    border: none;
-    transition: background-color 250ms var(--shadow), color 250ms var(--shadow);
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-    &:hover,
+.btn__project {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 6px 26px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  cursor: pointer;
+  text-transform: capitalize;
+  background: var(--button-color);
+  border-radius: 4px;
+  border: none;
+  transition: background-color 250ms var(--shadow), color 250ms var(--shadow);
+
+  &:hover,
   &:focus {
     color: var(--primery-text-color);
     background: var(--link-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
-  }
-  
-  
-  // modal
+}
 
-  .close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-    border-radius: 50%;
-  
-    background: var(--primery-text-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: transparent;
-    cursor: pointer;
-    transition: fill 250ms var(--shadow);
+// modal
 
-    &:hover,
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+
+  background: var(--primery-text-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: transparent;
+  cursor: pointer;
+  transition: fill 250ms var(--shadow);
+
+  &:hover,
   &:focus {
     fill: var(--link-color);
     color: var(--link-color);
   }
+}
+
+.close-btn-icon:hover,
+.close-btn-icon:focus {
+  fill: var(--link-color);
+  color: var(--link-color);
+}
+
+.form-btn {
+  display: block;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+
+  background: #2196f3;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+
+  text-transform: capitalize;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms var(--shadow);
+
+  &:focus {
+    color: var(--primery-text-color);
+    background: var(--link-color);
   }
-  
-  .close-btn-icon:hover,
-  .close-btn-icon:focus{
-    fill: var(--link-color);
-    color: var(--link-color);
+
+  &:hover {
+    background-color: var(--bgc-btn);
   }
-  
+}
 
-  .form-btn {
-    display: block;
-    font-family: "Roboto";
-    font-size: 16px;
-    line-height: calc(30 / 16);
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    color: #ffffff;
-    width: 200px;
-    height: 50px;
+// footer
 
-    background: #2196f3;
-    border-radius: 4px;
-    padding: 0;
-    margin: 0 auto;
-    border: none;
+.footer-btn {
+  display: flex;
+  justify-content: center;
+  background-color: var(--link-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  padding: 10px 28px;
+  margin: 0;
+  transition: background-color 250ms var(--shadow);
 
-    text-transform: capitalize;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    transition: background-color 250ms var(--shadow);
-
-    &:focus {
-      color: var(--primery-text-color);
-      background: var(--link-color);
-    }
-    
-    &:hover {
-      background-color: var(--bgc-btn);
-    }
+  &:focus {
+    color: var(--primery-text-color);
+    background: var(--link-color);
   }
-  
-  // footer
+  &:hover {
+    background-color: var(--bgc-btn);
+  }
 
-  .footer-btn {
-    display: flex;
-    justify-content: center;
-    background-color: var(--link-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    width: 200px;
-    height: 50px;
-    border: none;
-    cursor: pointer;
-    padding: 10px 28px;
-    margin: 0;
-    transition: background-color 250ms var(--shadow);
-
-    &:focus {
-      color: var(--primery-text-color);
-      background: var(--link-color);
-    }
-    &:hover {
-      background-color: var(--bgc-btn);
-    }
-
-    @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1199px) {
     width: 200px;
     margin: 0 auto;
     margin-top: 20px;
+  }
 }
-    
+
+// burger menu
+@media screen and (min-width: 768px) {
+  .burger-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .burger-button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1111;
   }
 
-
-  // burger menu
-  @media screen and (min-width:768px){
-    .burger-button{
-      display: none;
-    }
+  .burger-button .icon-close {
+    display: none;
   }
 
-  @media screen and (max-width:768px){
-    .burger-button{
-      position: absolute;
-      display:flex;
-      min-height: 40px;
-      min-width: 40px;
-      margin: 0;
-      padding: 0;
-      border: none;
-      background-color: transparent;
-  cursor: pointer;
-      @media screen and (min-width: $tablet){
-        display: none;
-      }
-    }
-  
-    .burger-button .icon-menu{
-      display: none;
-    }
-  
-    .burger-button.is-open .icon-close{
-      display: block;
-    }
-  
-    .burger-button.is-open .icon-menu{
-      display: none;
-    }
-    .burger-button.is-open .burger:hover, .burger-button.is-open .burger:focus {
-      fill: #2196F3;
-    }
-    
+  .burger-button.is-open .icon-close {
+    display: block;
   }
-  
+
+  .burger-button.is-open .icon-menu {
+    display: none;
+  }
+  .burger-button.is-open .burger:hover,
+  .burger-button.is-open .burger:focus {
+    fill: #2196f3;
+  }
+
+  .burger-button.is-open .burger {
+    fill: #000000;
+  }
+}
